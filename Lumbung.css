@@ -265,7 +265,8 @@ body {
 }
 
 /* Contact */
-.contact .roww form .btn {
+.contact .roww .btn {
+  display: flex;
   margin-top: 3rem;
   display: inline-block;
   padding: 1rem 3rem;
@@ -275,7 +276,7 @@ body {
   cursor: pointer;
 }
 
-.contact .roww form .btn:hover {
+.contact .roww .btn:hover {
   color: var(--primary);
   background-color: #fff;
   transition: 0.5s;
